@@ -2256,6 +2256,70 @@
             "install-path": "../drupal/coder"
         },
         {
+            "name": "drupal/contact_storage",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/contact_storage.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/contact_storage-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "42def93e522b18d240d9f94026bf4fea0a653c83"
+            },
+            "require": {
+                "drupal/core": "^9.1 || ^10 || ^11",
+                "drupal/token": "^1.6"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1723970772",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "Arla",
+                    "homepage": "https://www.drupal.org/user/226712"
+                },
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Provides storage and edit capability for contact messages.",
+            "homepage": "https://www.drupal.org/project/contact_storage",
+            "support": {
+                "source": "https://git.drupalcode.org/project/contact_storage"
+            },
+            "install-path": "../../web/modules/contrib/contact_storage"
+        },
+        {
             "name": "drupal/core",
             "version": "10.4.3",
             "version_normalized": "10.4.3.0",
@@ -2742,6 +2806,136 @@
                 "issues": "https://www.drupal.org/project/issues/smtp"
             },
             "install-path": "../../web/modules/contrib/smtp"
+        },
+        {
+            "name": "drupal/symfony_mailer",
+            "version": "1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/symfony_mailer.git",
+                "reference": "1.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/symfony_mailer-1.5.0.zip",
+                "reference": "1.5.0",
+                "shasum": "dbec446b7112ac2e50580ceda9e80ea806498047"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "html2text/html2text": "^4.0.1",
+                "symfony/mailer": "^6.0 || ^7.0",
+                "tijsverkoyen/css-to-inline-styles": "^2.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.5.0",
+                    "datestamp": "1723739690",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^11"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "adamps",
+                    "homepage": "https://www.drupal.org/user/2650563"
+                }
+            ],
+            "description": "Symfony Mailer",
+            "homepage": "https://www.drupal.org/project/symfony_mailer",
+            "support": {
+                "source": "https://git.drupalcode.org/project/symfony_mailer"
+            },
+            "install-path": "../../web/modules/contrib/symfony_mailer"
+        },
+        {
+            "name": "drupal/token",
+            "version": "1.15.0",
+            "version_normalized": "1.15.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token.git",
+                "reference": "8.x-1.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.15.zip",
+                "reference": "8.x-1.15",
+                "shasum": "5916fbccc86458a5f51e71f832ac70ff4c84ebdf"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/book": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.15",
+                    "datestamp": "1722206211",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "dave reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API, some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token"
+            },
+            "install-path": "../../web/modules/contrib/token"
         },
         {
             "name": "drush/drush",
@@ -3454,6 +3648,47 @@
                 }
             ],
             "install-path": "../guzzlehttp/psr7"
+        },
+        {
+            "name": "html2text/html2text",
+            "version": "4.3.2",
+            "version_normalized": "4.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mtibben/html2text.git",
+                "reference": "3b443cbe302b52eb5806a21a9dbd79524203970a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mtibben/html2text/zipball/3b443cbe302b52eb5806a21a9dbd79524203970a",
+                "reference": "3b443cbe302b52eb5806a21a9dbd79524203970a",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4|^9.0"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance",
+                "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+            },
+            "time": "2024-08-20T02:43:29+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Html2Text\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Converts HTML to formatted plain text",
+            "support": {
+                "issues": "https://github.com/mtibben/html2text/issues",
+                "source": "https://github.com/mtibben/html2text/tree/4.3.2"
+            },
+            "install-path": "../html2text/html2text"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -12079,6 +12314,64 @@
             "install-path": "../theseer/tokenizer"
         },
         {
+            "name": "tijsverkoyen/css-to-inline-styles",
+            "version": "v2.3.0",
+            "version_normalized": "2.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
+                "reference": "0d72ac1c00084279c1816675284073c5a337c20d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/0d72ac1c00084279c1816675284073c5a337c20d",
+                "reference": "0d72ac1c00084279c1816675284073c5a337c20d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.4 || ^8.0",
+                "symfony/css-selector": "^5.4 || ^6.0 || ^7.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
+                "phpunit/phpunit": "^8.5.21 || ^9.5.10"
+            },
+            "time": "2024-12-21T16:25:41+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TijsVerkoyen\\CssToInlineStyles\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tijs Verkoyen",
+                    "email": "css_to_inline_styles@verkoyen.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
+            "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
+            "support": {
+                "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
+                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.3.0"
+            },
+            "install-path": "../tijsverkoyen/css-to-inline-styles"
+        },
+        {
             "name": "twig/twig",
             "version": "v3.19.0",
             "version_normalized": "3.19.0.0",
@@ -12351,7 +12644,6 @@
         "slevomat/coding-standard",
         "squizlabs/php_codesniffer",
         "symfony/browser-kit",
-        "symfony/css-selector",
         "symfony/dom-crawler",
         "symfony/lock",
         "symfony/phpunit-bridge",

@@ -11,25 +11,26 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
+        '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
-        '5897ea0ac4cccf14d323035e65887801' => __DIR__ . '/..' . '/symfony/polyfill-php82/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
+        '5897ea0ac4cccf14d323035e65887801' => __DIR__ . '/..' . '/symfony/polyfill-php82/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '8e92226780215d0ec758aa7b73e0ede9' => __DIR__ . '/..' . '/open-telemetry/context/fiber/initialize_fiber_handler.php',
         '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        'c7b4a5d8b94d270f0f9a84f81e1dd63d' => __DIR__ . '/..' . '/open-telemetry/api/Trace/functions.php',
         '89efb1254ef2d1c5d80096acd12c4098' => __DIR__ . '/..' . '/twig/twig/src/Resources/core.php',
         'ffecb95d45175fd40f75be8a23b34f90' => __DIR__ . '/..' . '/twig/twig/src/Resources/debug.php',
         'c7baa00073ee9c61edf148c51917cfb4' => __DIR__ . '/..' . '/twig/twig/src/Resources/escaper.php',
         'f844ccf1d25df8663951193c3fc307c8' => __DIR__ . '/..' . '/twig/twig/src/Resources/string_loader.php',
+        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/web/core/includes/bootstrap.inc',
+        'c7b4a5d8b94d270f0f9a84f81e1dd63d' => __DIR__ . '/..' . '/open-telemetry/api/Trace/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
-        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'c695cb998ba36e4bafc3d028efc7d113' => __DIR__ . '/..' . '/open-telemetry/sdk/Common/Util/functions.php',
         'd991bdbfe253499825156f17c4a721db' => __DIR__ . '/..' . '/open-telemetry/sdk/Logs/Exporter/_register.php',
         '01d424d2624f29a2eef00b09eb00935e' => __DIR__ . '/..' . '/open-telemetry/sdk/Metrics/MetricExporter/_register.php',
@@ -38,7 +39,6 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
         '062120a429d7568eacd495a8c34fcf09' => __DIR__ . '/..' . '/open-telemetry/sdk/Common/Dev/Compatibility/_load.php',
         '88e3b63cfb48eb8ea316a8a85a5f5c5f' => __DIR__ . '/..' . '/open-telemetry/sdk/_autoload.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-        '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/web/core/includes/bootstrap.inc',
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -70,6 +70,7 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
         'T' => 
         array (
             'Twig\\' => 5,
+            'TijsVerkoyen\\CssToInlineStyles\\' => 31,
         ),
         'S' => 
         array (
@@ -176,6 +177,7 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
             'Http\\Discovery\\' => 15,
             'Http\\Client\\' => 12,
             'Http\\Adapter\\Guzzle7\\' => 21,
+            'Html2Text\\' => 10,
         ),
         'G' => 
         array (
@@ -276,6 +278,10 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'TijsVerkoyen\\CssToInlineStyles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
@@ -594,6 +600,10 @@ class ComposerStaticInit64f63423db6426b449da0db100f8afd5
         'Http\\Adapter\\Guzzle7\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/guzzle7-adapter/src',
+        ),
+        'Html2Text\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/html2text/html2text/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
