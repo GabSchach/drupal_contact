@@ -1,0 +1,23 @@
+{
+    "name": "Drupal Development",
+    "dockerFile": "../Dockerfile",
+    "forwardPorts": [80],
+    "remoteUser": "www-data",
+    "postCreateCommand": "sudo chown -R www-data:www-data /var/www/html",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "bmewburn.vscode-intelephense-client",
+          "mrmlnc.vscode-apache",
+          "eamodio.gitlens"
+        ],
+        "settings": {
+          "editor.formatOnSave": true,
+          "php.validate.executablePath": "/usr/local/bin/php"
+        }
+      }
+    },
+    "features": {
+      "github-cli": "latest"
+    }
+  }
