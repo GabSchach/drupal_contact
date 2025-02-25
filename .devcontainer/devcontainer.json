@@ -1,9 +1,10 @@
 {
     "name": "Drupal Development",
-    "dockerFile": "../Dockerfile",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
     "forwardPorts": [80],
-    "remoteUser": "www-data",
-    "postCreateCommand": "sudo chown -R www-data:www-data /var/www/html",
+    "remoteUser": "vscode",
     "customizations": {
       "vscode": {
         "extensions": [
@@ -17,7 +18,8 @@
         }
       }
     },
+    "postCreateCommand": "sudo chown -R www-data:www-data /var/www/html",
     "features": {
-      "github-cli": "latest"
+      "ghcr.io/devcontainers/features/github-cli:1": {}
     }
   }
